@@ -146,3 +146,16 @@ sudo ufw status
 
 [🔗]: https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/
 
+
+
+### 6 Linux 基本操作
+
+- 进程终止：
+
+    ```shell
+    ps -ef | grep xxxx    // ps -ef: 查看本机所有的进程 grep xxxx: 过滤找到条件xxxx的项目
+    
+    kill -[pid]    //[具体的PID]
+    ```
+
+- 下载：
