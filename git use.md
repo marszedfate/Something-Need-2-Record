@@ -117,6 +117,12 @@
   git reset --hard "commit ID"
   ```
 
+* 回滚到前一个 commit：
+
+  ```shell
+  git reset --soft HEAD~1
+  ```
+
 * 强制同步 GitHub (如果之前 push 到 GitHub 上了)：
 
   ```shell
